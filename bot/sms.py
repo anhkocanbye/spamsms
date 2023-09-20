@@ -15,8 +15,6 @@ import os, sys, requests, random, json
 import time
 from re import search
 from random import choice, randint, shuffle
-phone = sys.argv[1]
-amount = int(sys.argv[2])
 threading = ThreadPoolExecutor(max_workers=int(100000))
 imei = uuid.uuid4()
 ua = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36',}
